@@ -1,6 +1,6 @@
 FROM i386/ubuntu:bionic
 
-ENV GAP_VERSION 4.11.0
+ENV GAP_VERSION 4.11.1
 
 MAINTAINER James D. Mitchell <jdm3@st-andrews.ac.uk>
 
