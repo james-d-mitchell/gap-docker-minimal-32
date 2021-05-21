@@ -18,7 +18,7 @@ RUN    adduser --quiet --shell /bin/bash --gecos "GAP user,101,," --disabled-pas
 
 RUN    mkdir -p /home/gap/inst \
     && cd /home/gap/inst \
-    && wget https://www.gap-system.org/pub/gap/gap4core/gap-${GAP_VERSION}-core.zip \
+    && wget https://github.com/gap-system/gap/releases/download/v${GAP_VERSION}/gap-${GAP_VERSION}-core.zip \
     && unzip gap-${GAP_VERSION}-core.zip \
     && rm gap-${GAP_VERSION}-core.zip \
     && cd gap-${GAP_VERSION} \
